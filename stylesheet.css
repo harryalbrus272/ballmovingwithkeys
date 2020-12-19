@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    position: relative;
+    padding: 1%;
+}
+.outerbox{
+  display:grid;
+  place-items:center;
+  width:95%;
+  height:95%;
+  margin:auto;
+}
+#ball{
+    width:100px;
+    height:100px;
+    background-color:aqua;
+    border-radius:50%;
+    position: absolute;
+    top:45vh;
+    left:48vw;
+}
